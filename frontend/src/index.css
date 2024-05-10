@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 16px;
+}
+.app-container {
+  width: 1000px;
+  margin: auto;
+}
+
+
+@media (max-width: 1020px) {
+  .app-container {
+    width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  .app-container {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .app-container {
+    width: 98%;
+  }
+}
