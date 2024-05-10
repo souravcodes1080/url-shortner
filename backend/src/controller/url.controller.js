@@ -14,9 +14,9 @@ const shortenUrl = async (req, res) => {
 
     //validate url
     if (!urlValidate(longUrl)) {
-      return res.status(400).json({
+      return res.status(206).json({
         success: false,
-        message: "Wrong URL.",
+        message: "Please enter a valid url.",
       });
     }
 
