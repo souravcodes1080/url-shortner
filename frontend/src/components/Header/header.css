@@ -1,3 +1,23 @@
+header{
+    position: relative;
+}
+header button{
+    position: absolute;
+    right: 0;
+    top:50%;
+    transform: translateY(-50%);
+    padding: 10px 30px;
+    background-color: #ff8545;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 header ul{
     display: flex;
     justify-content: center;
@@ -9,4 +29,10 @@ header ul{
 }
 li{
     cursor: pointer;
+}
+
+@media (max-width:500px) {
+    header button{
+        display: none;
+    }
 }
