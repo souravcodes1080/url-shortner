@@ -1,1 +1,1 @@
-export const BACKEND_DOMAIN = "https://url-shortner-ydk1.onrender.com/"
+export const BACKEND_DOMAIN = "https://url-shortner-ydk1.onrender.com"
