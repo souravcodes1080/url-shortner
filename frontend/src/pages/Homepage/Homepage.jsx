@@ -2,6 +2,8 @@ import React from "react";
 import "./homepage.css";
 import Header from "../../components/Header/Header";
 import Main from "../../components/Main/Main";
+import Banner from "../../components/Banner/Banner";
+import Grid from "../../components/Grid/Grid";
 function Homepage() {
   return (
     <>
@@ -10,6 +12,10 @@ function Homepage() {
           <Header />
           <Main />
         </div>
+      </div>
+      <div className="app-container">
+        <Banner />
+        <Grid />
       </div>
     </>
   );

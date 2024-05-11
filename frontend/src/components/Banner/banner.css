@@ -1,0 +1,89 @@
+.banner-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.banner-wrapper .banner-left{
+    flex: 1;
+    padding-right: 20px;
+
+}
+.banner-left h3{
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.banner-left span{
+    font-size: 18px;
+    font-weight: 400; 
+}
+.banner-left p{
+    font-size: 16px;
+    font-weight: 300; 
+    line-height: 25px;
+    text-align: justify;
+}
+.banner-wrapper .banner-right{
+    flex: 1;
+    justify-self: flex-end;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.banner-right-content{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-right-content-left{
+    width: 80px;
+}
+.banner-right-content-right p{
+    font-size: 23px;
+    width: 100%;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+.banner-button-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.banner-button-wrapper button{
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #1766a0;
+    background: transparent;
+    border: 2px solid #1766a0;
+    cursor: pointer;
+}
+.banner-button-main{
+    background-color: #1766a0 !important;
+    color: white !important;
+}
+
+@media (max-width:800px) {
+    .banner-wrapper{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner-left{
+        padding-right: 0px !important;
+    }
+    .banner-left h3{
+        font-size: 26px;
+       
+    }
+    .banner-right{
+        padding-left: 0px !important;
+    }
+    .banner-right-content-right p{
+        font-size: 20px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+}
