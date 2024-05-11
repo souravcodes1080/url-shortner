@@ -12,10 +12,10 @@ Free URL Shortener for transforming long, ugly links into nice, memorable and tr
 - Nanoid
 - React Toastify
 
-<a href=""><h3>Try it here ⬅️</h3></a> 
+<a href="https://srt-url-dev.vercel.app"><h3>Try it here ⬅️</h3></a> 
 or copy the link
 ```
-http://localhost:8080
+https://srt-url-dev.vercel.app
 ```
 <hr>
 
