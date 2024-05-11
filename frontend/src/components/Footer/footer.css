@@ -1,0 +1,41 @@
+.footer{
+    padding-bottom: 5px ;
+}
+.footer-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+footer ul{
+    padding: 40px 0;
+    padding-bottom: 60px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+.footer-bottom{
+    text-align: center;
+    color: white;
+    opacity: 0.5;
+}
+.footer-bottom a{
+    color: white;
+}
+
+@media (max-width:500px) {
+    .footer-list{
+        padding: 10px;
+        align-items: baseline;
+        justify-content: center;
+        gap: 30px;
+    }
+   
+    footer{
+        font-size: 15px;
+    }
+    footer ul {
+        font-size: 15px;
+    }
+}
