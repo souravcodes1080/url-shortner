@@ -17,6 +17,7 @@ function Main() {
     if (localStorage.getItem("shortUrl")) {
       setShowResult(true);
     }
+    console.log(`API:- ${BACKEND_DOMAIN}/api/shorten`)
   }, []);
   const onChangeHandler = (e) => {
     setLongUrl(e.target.value);
@@ -25,7 +26,7 @@ function Main() {
     e.preventDefault();
     setShowResult(true);
     setLoading(true);
-    const response = await axios.post(`${BACKEND_DOMAIN}api/shorten`, {
+    const response = await axios.post(`${BACKEND_DOMAIN}/api/shorten`, {
       longUrl: longUrl,
     });
     if (response.data.success) {
