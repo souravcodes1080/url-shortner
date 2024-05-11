@@ -6,7 +6,7 @@ function Banner() {
       <div className="banner-wrapper">
         <div className="banner-left">
             <h3>A Fast and Simple URL Shortener.</h3>
-            <p><span>Free URL Shortener</span> for transforming long, ugly links into nice, memorable and trackable short URLs. Use it to shorten links for any social media platforms, blogs, SMS, emails, ads, or pretty much anywhere else you want to share them. Twitter, Facebook, YouTube, Instagram, WhatsApp, emails, SMS, videos. RB.GY is the best free alternative to generic URL shorteners like bitly and tinyurl.</p>
+            <p><span>Free URL Shortener</span> for transforming long, ugly links into nice, memorable and trackable short URLs. Use it to shorten links for any social media platforms, blogs, SMS, emails, ads, or pretty much anywhere else you want to share them. Twitter, Facebook, YouTube, Instagram, WhatsApp, emails, SMS, videos. Our url shortner is the best free alternative to generic URL shorteners like bitly and tinyurl.</p>
         </div>
         <div className="banner-right">
             <div className="banner-right-content">
