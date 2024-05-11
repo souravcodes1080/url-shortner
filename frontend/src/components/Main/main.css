@@ -1,9 +1,18 @@
+.main-hero-img{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.main-hero-img img{
+    width: 400px;
+}
 main h1{
     text-align: center;
     font-size: 45px;
     color: white;
     padding: 10px 0;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 main p{
     color: white;
@@ -79,7 +88,18 @@ main .short-url-result{
     font-size: 15px;
     font-weight: 400;
 }
+.policy span{
+    text-decoration: underline;
+    
+}
+
 @media (max-width:800px) {
+    .main-hero-img{
+        margin-top: 20px;
+    }
+    .main-hero-img img{
+        width: 270px;
+    }
     main h1{
         font-size: 35px;
     }
@@ -107,7 +127,14 @@ main .short-url-result{
 }
 
 @media (max-width:500px) {
+    .main-hero-img{
+        margin-top: 0;
+    }
     .short-url-result span{
         display: none;
+    }
+    main form button{
+        padding: 15px;
+        width: 140px;
     }
 }
