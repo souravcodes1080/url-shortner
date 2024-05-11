@@ -1,4 +1,4 @@
-<h1 align="center"> URL Shortener </h1>
+<h1 align="center"> URL Shortener 🔗 </h1>
 <p>
 Free URL Shortener for transforming long, ugly links into nice, memorable and trackable short URLs. Use it to shorten links for any social media platforms, blogs, SMS, emails, ads, or pretty much anywhere else you want to share them. Twitter, Facebook, YouTube, Instagram, WhatsApp, emails, SMS, videos. Our url shortener is the best free alternative to generic URL shorteners like bitly and tinyurl.
 </p>
@@ -12,7 +12,7 @@ Free URL Shortener for transforming long, ugly links into nice, memorable and tr
 - Nanoid
 - React Toastify
 
-<a href=""><h3>Try it here</h3></a> 
+<a href=""><h3>Try it here ⬅️</h3></a> 
 or copy the link
 ```
 http://localhost:8080
