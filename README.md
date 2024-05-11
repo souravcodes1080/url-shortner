@@ -3,6 +3,8 @@
 Free URL Shortener for transforming long, ugly links into nice, memorable and trackable short URLs. Use it to shorten links for any social media platforms, blogs, SMS, emails, ads, or pretty much anywhere else you want to share them. Twitter, Facebook, YouTube, Instagram, WhatsApp, emails, SMS, videos. Our url shortener is the best free alternative to generic URL shorteners like bitly and tinyurl.
 </p>
 <hr>
+<img src="./frontend/src/assets/s1.png"/>
+
 
 ### Tech Stack and Libraries Used
 - React JS
@@ -12,7 +14,7 @@ Free URL Shortener for transforming long, ugly links into nice, memorable and tr
 - Nanoid
 - React Toastify
 
-<a href="https://srt-url-dev.vercel.app"><h3>Try it here ⬅️</h3></a> 
+<a href="https://srt-url-dev.vercel.app">Try it here ⬅️</a> 
 or copy the link
 ```
 https://srt-url-dev.vercel.app
