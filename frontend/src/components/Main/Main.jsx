@@ -17,7 +17,7 @@ function Main() {
     if (localStorage.getItem("shortUrl")) {
       setShowResult(true);
     }
-    console.log(`API:- ${BACKEND_DOMAIN}/api/shorten`)
+   
   }, []);
   const onChangeHandler = (e) => {
     setLongUrl(e.target.value);
