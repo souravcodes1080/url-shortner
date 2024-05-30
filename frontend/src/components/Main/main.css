@@ -45,6 +45,17 @@ main form button{
     background-color: #1766a0;
     color: white;
 }
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      /* transform: translateY(-20px); */
+    }
+    100% {
+      opacity: 1;
+      /* transform: translateY(0); */
+    }
+  }
+  
 main .short-url-result{
     display: flex;
     justify-content: flex-start;
@@ -53,6 +64,8 @@ main .short-url-result{
     background-color: white;
     border-radius: 7px;
     padding: 20px 20px;
+    transition: 2s ease all;
+    animation: fadeIn 0.7s forwards;
 }
 .short-url-result a{
     display: flex;

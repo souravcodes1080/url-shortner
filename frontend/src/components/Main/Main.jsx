@@ -17,11 +17,12 @@ function Main() {
     if (localStorage.getItem("shortUrl")) {
       setShowResult(true);
     }
-   
   }, []);
+
   const onChangeHandler = (e) => {
     setLongUrl(e.target.value);
   };
+
   const onSubmitHandler = async (e) => {
     e.preventDefault();
     setShowResult(true);
@@ -49,6 +50,7 @@ function Main() {
       });
     }
   };
+
   const copyToClipboard = () => {
     navigator.clipboard.writeText(shortUrl).then(() => {
       toast.success("Copied to clipboard!", {
@@ -87,7 +89,7 @@ function Main() {
             {loading ? (
               <p>Generating ...</p>
             ) : (
-              <div className="short-url-result">
+              <div className={`short-url-result ${showResult ? "visible" : ""}`}>
                 <button className="copy-btn" onClick={copyToClipboard}>
                   Copy
                 </button>
